@@ -394,10 +394,9 @@ cell image analysis software CellProfiler (cellprofiler.org).''',
           license='BSD License',
           setup_requires=[
           'Cython>=0.29.16,<3',
-          'numpy<2',
          ],
           install_requires=[
-          'numpy>=1.20.1,<2',
+          'numpy>=1.20.1',
           ],
           tests_require="nose",
           entry_points={'nose.plugins.0.10': [
